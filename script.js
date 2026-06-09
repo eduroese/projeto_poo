@@ -1,8 +1,8 @@
-import TesteVocacional from "./models/TesteVocacional.js";
-import DataService from "./services/DataService.js";
-import RenderController from "./controllers/RenderController.js";
-import ScoreController from "./controllers/ScoreController.js";
-import QuestionController from "./controllers/QuestionController.js";
+import TesteVocacional from "./models/testeVocacional.js";
+import DataService from "./services/dataService.js";
+import RenderController from "./controllers/renderController.js";
+import ScoreController from "./controllers/scoreController.js";
+import QuestionController from "./controllers/questionController.js";
 
 async function iniciar() {
   try {
