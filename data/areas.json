@@ -16,7 +16,8 @@
       "Linux",
       "DevOps",
       "Infraestrutura de TI"
-    ]
+    ],
+    "perfil": "Realista"
   },
 
   "I": {
@@ -36,7 +37,8 @@
       "Ciência de Dados",
       "Cybersecurity",
       "Engenharia de Software"
-    ]
+    ],
+    "perfil": "Investigativo"
   },
 
   "A": {
@@ -56,7 +58,8 @@
       "Design Digital",
       "Design de Produto",
       "Figma e Prototipação"
-    ]
+    ],
+    "perfil": "Artístico"
   },
 
   "S": {
@@ -76,7 +79,8 @@
       "Customer Success",
       "ITIL",
       "Relacionamento com Clientes"
-    ]
+    ],
+    "perfil": "Social"
   },
 
   "E": {
@@ -96,7 +100,8 @@
       "Agilidade",
       "Gestão de Produtos",
       "Empreendedorismo"
-    ]
+    ],
+    "perfil": "Empreendedor"
   },
 
   "C": {
@@ -116,6 +121,7 @@
       "Business Intelligence",
       "Engenharia de Dados",
       "Governança de Dados"
-    ]
+    ],
+    "perfil": "Convencional"
   }
 }

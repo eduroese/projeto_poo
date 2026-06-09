@@ -93,7 +93,7 @@ export default class RenderController {
                     <div class="area-card">
 
                         <h3>
-                            ${area.nome}
+                            ${area.perfil}
                         </h3>
 
                         <p>
