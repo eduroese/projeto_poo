@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teste Vocacional | Áreas da tecnologia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="tela-inicial" class="tela ativa">
+    <div class="cartao cartao-inicial">
+      <div class="inicial-conteudo">
+        <div class="inicial-esquerda">
+          <h1 class="titulo-principal">
+            Teste vocacional para
+            <span class="titulo-destaque">áreas da tecnologia.</span>
+          </h1>
+          <p class="descricao-inicial">
+            Responda a algumas perguntas e descubra quais áreas
+            da tecnologia combinam mais com o seu perfil,
+            seus interesses e suas habilidades.
+          </p>
+          <button id="botao-comecar" class="botao-primario">Começar o teste</button>
+        </div>
+        <div class="inicial-direita">
+          <img class="icone-inicial" src="/img/pc-icon.png" alt="Ilustração tecnologia">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tela-perguntas" class="tela">
+    <div class="cartao cartao-perguntas">
+
+      <div class="progresso-topo">
+        <span id="numero-pergunta" class="numero-pergunta">Pergunta 1</span>
+        <span id="total-perguntas" class="total-perguntas">de 30</span>
+      </div>
+
+      <div class="barra-progresso-container">
+        <div id="barra-progresso" class="barra-progresso"></div>
+      </div>
+
+      <p id="texto-pergunta" class="texto-pergunta"></p>
+
+      <div id="opcoes-container" class="opcoes-container"></div>
+
+      <p id="aviso-selecao" class="aviso-selecao">
+        Por favor, selecione uma opção antes de continuar.
+      </p>
+
+      <div class="botoes-navegacao">
+        <button id="botao-anterior" class="botao-secundario" disabled>← Anterior</button>
+        <button id="botao-proximo" class="botao-primario">Próxima →</button>
+      </div>
+
+    </div> 
+  </div>
+
+  <div id="tela-resultado" class="tela">
+    <div class="resultado-wrapper">
+      <div class="cartao cartao-resultado">
+        <h2 class="titulo-resultado">Seu resultado</h2>
+        <p class="subtitulo-resultado">Com base nas suas respostas, você tem perfil para as áreas de:</p>
+
+        <div id="resultado"></div>
+
+        <div class="botoes-resultado">
+          <button id="botao-refazer" class="botao-secundario">Refazer teste</button>
+          <button class="botao-primario">Sobre o projeto</button>
+        </div>
+      </div>
+
+      <div class="rodape-resultado">
+        <!--<img class="rodape-icone" src="/img/gatinho-nerd[.png"> -->
+        <div>
+          <p class="rodape-titulo">Caso queira receber seu resultado por e-mail, nos informe:</p>
+
+          <form id="form-envio" method="post">
+            <label class="label-nome" for="nome-usuario">Nome:</label>
+            <input type="text" id="nome-usuario"><br>
+
+            <label class="label-email" for="email-usuario">E-mail:</label>
+            <input type="email" id="email-usuario">
+
+            <div class="container-botao">
+              <button class="btn-envio" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
