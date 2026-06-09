@@ -1,0 +1,26 @@
+{
+   "R":{
+      "nome":"Infraestrutura, Redes e Cloud",
+      "descricao":"Você gosta de atividades práticas e técnicas."
+   },
+   "I":{
+      "nome":"Desenvolvimento, IA e Segurança:",
+      "descricao":"Você possui um perfil analítico e investigativo."
+   },
+   "A":{
+      "nome":"UX/UI e Design Digital",
+      "descricao":"Você demonstra ter um perfil criativo e inovador."
+   },
+   "S":{
+      "nome":"Suporte e Relacionamento",
+      "descricao":"Você é alguém colaborativo e que gostar de ajudar as outras pessoas."
+   },
+   "E":{
+      "nome":"Gestão de Projetos e Empreendedorismo",
+      "descricao":"Você possui um perfil de liderança."
+   },
+   "C":{
+      "nome":"Banco de Dados",
+      "descricao":"Você valoriza a organização."
+   }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "value": 1,
+    "texto": "Não me identifico"
+  },
+  {
+    "value": 2,
+    "texto": "Me identifico pouco"
+  },
+  {
+    "value": 3,
+    "texto": "Me identifico moderadamente"
+  },
+  {
+    "value": 4,
+    "texto": "Me identifico bastante"
+  },
+  {
+    "value": 5,
+    "texto": "Me identifico totalmente"
+  }
+]

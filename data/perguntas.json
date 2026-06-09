@@ -1,0 +1,152 @@
+[
+   {
+      "id":1,
+      "texto":"Gosto de trabalhar com equipamentos e ferramentas.",
+      "perfil":"R"
+   },
+   {
+      "id":2,
+      "texto":"Prefiro atividades práticas do que atividades teóricas.",
+      "perfil":"R"
+   },
+   {
+      "id":3,
+      "texto":"Sinto satisfação em consertar objetos ou sistemas.",
+      "perfil":"R"
+   },
+   {
+      "id":4,
+      "texto":"Gosto de entender como o ambiente físico funciona.",
+      "perfil":"R"
+   },
+   {
+      "id":5,
+      "texto":"Prefiro resultados concretos e visíveis.",
+      "perfil":"R"
+   },
+   {
+      "id":6,
+      "texto":"Gosto de resolver problemas complexos.",
+      "perfil":"I"
+   },
+   {
+      "id":7,
+      "texto":"Tenho curiosidade sobre como sistemas funcionam internamente.",
+      "perfil":"I"
+   },
+   {
+      "id":8,
+      "texto":"Gosto de pesquisar antes de tomar decisões.",
+      "perfil":"I"
+   },
+   {
+      "id":9,
+      "texto":"Prefiro atividades que precisam de análise.",
+      "perfil":"I"
+   },
+   {
+      "id":10,
+      "texto":"Gosto de aprender assuntos técnicos.",
+      "perfil":"I"
+   },
+   {
+      "id":11,
+      "texto":"Gosto de expressar ideias de forma criativa. ",
+      "perfil":"A"
+   },
+   {
+      "id":12,
+      "texto":"Tenho interesse por design e estética.",
+      "perfil":"A"
+   },
+   {
+      "id":13,
+      "texto":"Prefiro ambientes flexíveis e inovadores",
+      "perfil":"A"
+   },
+   {
+      "id":14,
+      "texto":"Gosto de criar soluções originais.",
+      "perfil":"A"
+   },
+   {
+      "id":15,
+      "texto":"Valorizo liberdade para experimentar novas ideias.",
+      "perfil":"A"
+   },
+   {
+      "id":16,
+      "texto":"Gosto de auxiliar pessoas.",
+      "perfil":"S"
+   },
+   {
+      "id":17,
+      "texto":"Tenho facilidade para explicar assuntos.",
+      "perfil":"S"
+   },
+   {
+      "id":18,
+      "texto":"Prefiro atividades que envolvam interação humana.",
+      "perfil":"S"
+   },
+   {
+      "id":19,
+      "texto":"Gosto de ensinar algo ao próximo.",
+      "perfil":"S"
+   },
+   {
+      "id":20,
+      "texto":"Gosto de trabalhar em equipe.",
+      "perfil":"S"
+   },
+   {
+      "id":21,
+      "texto":"Gosto de liderar equipes.",
+      "perfil":"E"
+   },
+   {
+      "id":22,
+      "texto":"Prefiro tomar decisões.",
+      "perfil":"E"
+   },
+   {
+      "id":23,
+      "texto":"Gosto de influenciar pessoas.",
+      "perfil":"E"
+   },
+   {
+      "id":24,
+      "texto":"Tenho interesse em negócios.",
+      "perfil":"E"
+   },
+   {
+      "id":25,
+      "texto":"Gosto de assumir grandes responsabilidades.",
+      "perfil":"E"
+   },
+   {
+      "id":26,
+      "texto":"Gosto de organização e planejamento.",
+      "perfil":"C"
+   },
+   {
+      "id":27,
+      "texto":"Prefiro atividades com procedimentos definidos.",
+      "perfil":"C"
+   },
+   {
+      "id":28,
+      "texto":"Tenho atenção aos detalhes de organização.",
+      "perfil":"C"
+   },
+   {
+      "id":29,
+      "texto":"Gosto de seguir processos estruturados.",
+      "perfil":"C"
+   },
+   {
+      "id":30,
+      "texto":"Valorizo precisão e controle.",
+      "perfil":"C"
+   }
+]
