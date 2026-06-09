@@ -3,7 +3,7 @@ export default class ScoreController {
     this.teste = teste;
   }
 
-  calcularPontos() {
+  calcularPontosRound1() {
     const riasec = {
       R: 0,
       I: 0,
@@ -13,8 +13,8 @@ export default class ScoreController {
       C: 0,
     };
 
-    this.teste.perguntas.forEach((pergunta, indice) => {
-      const resposta = this.teste.respostas[indice];
+    this.teste.perguntasRound1.forEach((pergunta, indice) => {
+      const resposta = this.teste.respostasRound1[indice];
       if (resposta !== null) {
         riasec[pergunta.perfil] += resposta;
       }
@@ -22,25 +22,44 @@ export default class ScoreController {
     return riasec;
   }
 
-  obterPerfis() {
-    const resultado = this.calcularPontos();
-    const ordem = Object.entries(resultado).sort((a, b) => b[1] - a[1]);
-    return [ordem[0][0], ordem[1][0]];
+  obterTop2Perfis() {
+    const ranking = Object.entries(this.calcularPontosRound1()).sort(
+      (a, b) => b[1] - a[1],
+    );
+    return [ranking[0][0], ranking[1][0]];
   }
 
-  verificaRespostas1() {
-    return this.teste.respostas.every((resposta) => resposta === 1);
+  calcularPontosRound2() {
+    const resultado = {};
+    this.teste.perguntasAtuais.forEach((pergunta, indice) => {
+      const resposta = this.teste.respostasRound2[indice];
+      if (!resultado[pergunta.perfil]) {
+        resultado[pergunta.perfil] = 0;
+      }
+      resultado[pergunta.perfil] += resposta || 0;
+    });
+    return resultado;
   }
 
-  verificaRespostasParecidas() {
-    const resultado = this.calcularPontos();
-    const valores = Object.values(resultado);
-    const maior = Math.max(...valores);
-    const menor = Math.min(...valores);
-    return maior - menor <= 3;
+  obterPerfilFinal() {
+    const ranking = Object.entries(this.calcularPontosRound2()).sort(
+      (a, b) => b[1] - a[1],
+    );
+    return ranking[0][0];
   }
 
-  obterRankingCompleto() {
-    return Object.entries(this.calcularPontos()).sort((a, b) => b[1] - a[1]);
+  obterDadosPerfilFinal() {
+    const perfil = this.obterPerfilFinal();
+    return this.teste.areas[perfil];
+  }
+
+  verificaRespostas1Round1() {
+    return this.teste.respostasRound1.every((resposta) => resposta === 1);
+  }
+
+  obterRankingRound1() {
+    return Object.entries(this.calcularPontosRound1()).sort(
+      (a, b) => b[1] - a[1],
+    );
   }
 }

@@ -1,26 +1,121 @@
 {
-   "R":{
-      "nome":"Infraestrutura, Redes e Cloud",
-      "descricao":"Você gosta de atividades práticas e técnicas."
-   },
-   "I":{
-      "nome":"Desenvolvimento, IA e Segurança:",
-      "descricao":"Você possui um perfil analítico e investigativo."
-   },
-   "A":{
-      "nome":"UX/UI e Design Digital",
-      "descricao":"Você demonstra ter um perfil criativo e inovador."
-   },
-   "S":{
-      "nome":"Suporte e Relacionamento",
-      "descricao":"Você é alguém colaborativo e que gostar de ajudar as outras pessoas."
-   },
-   "E":{
-      "nome":"Gestão de Projetos e Empreendedorismo",
-      "descricao":"Você possui um perfil de liderança."
-   },
-   "C":{
-      "nome":"Banco de Dados",
-      "descricao":"Você valoriza a organização."
-   }
+  "R": {
+    "nome": "Infraestrutura, Redes e Cloud",
+    "descricao": "Você gosta de atividades práticas, configuração de sistemas, redes e ambientes tecnológicos.",
+    "cargos": [
+      "Analista de Infraestrutura",
+      "Administrador de Redes",
+      "Cloud Engineer",
+      "DevOps Engineer",
+      "Analista de Suporte Nível 3"
+    ],
+    "salario": "R$ 3.500 a R$ 15.000+",
+    "formacao": [
+      "Redes de Computadores",
+      "Cloud Computing",
+      "Linux",
+      "DevOps",
+      "Infraestrutura de TI"
+    ]
+  },
+
+  "I": {
+    "nome": "Desenvolvimento, IA e Segurança",
+    "descricao": "Você possui um perfil analítico e investigativo, com facilidade para resolver problemas e trabalhar com lógica.",
+    "cargos": [
+      "Desenvolvedor de Software",
+      "Engenheiro de IA",
+      "Analista de Segurança",
+      "Cientista de Dados",
+      "Engenheiro de Machine Learning"
+    ],
+    "salario": "R$ 4.000 a R$ 20.000+",
+    "formacao": [
+      "Desenvolvimento de Software",
+      "Inteligência Artificial",
+      "Ciência de Dados",
+      "Cybersecurity",
+      "Engenharia de Software"
+    ]
+  },
+
+  "A": {
+    "nome": "UX/UI e Design Digital",
+    "descricao": "Você demonstra criatividade, inovação e interesse em criar experiências visuais e interativas.",
+    "cargos": [
+      "UX Designer",
+      "UI Designer",
+      "Product Designer",
+      "Designer Digital",
+      "Motion Designer"
+    ],
+    "salario": "R$ 3.000 a R$ 12.000+",
+    "formacao": [
+      "UX Design",
+      "UI Design",
+      "Design Digital",
+      "Design de Produto",
+      "Figma e Prototipação"
+    ]
+  },
+
+  "S": {
+    "nome": "Suporte e Relacionamento",
+    "descricao": "Você é colaborativo, gosta de ajudar pessoas e possui facilidade de comunicação.",
+    "cargos": [
+      "Analista de Suporte",
+      "Customer Success",
+      "Consultor de TI",
+      "Instrutor de Tecnologia",
+      "Analista de Implantação"
+    ],
+    "salario": "R$ 2.500 a R$ 10.000+",
+    "formacao": [
+      "Suporte Técnico",
+      "Gestão de Serviços de TI",
+      "Customer Success",
+      "ITIL",
+      "Relacionamento com Clientes"
+    ]
+  },
+
+  "E": {
+    "nome": "Gestão de Projetos e Empreendedorismo",
+    "descricao": "Você possui perfil de liderança, tomada de decisão e visão estratégica.",
+    "cargos": [
+      "Gerente de Projetos",
+      "Scrum Master",
+      "Product Owner",
+      "Gestor de TI",
+      "Empreendedor de Tecnologia"
+    ],
+    "salario": "R$ 5.000 a R$ 20.000+",
+    "formacao": [
+      "Gestão de Projetos",
+      "Scrum",
+      "Agilidade",
+      "Gestão de Produtos",
+      "Empreendedorismo"
+    ]
+  },
+
+  "C": {
+    "nome": "Banco de Dados",
+    "descricao": "Você valoriza organização, precisão e controle de informações.",
+    "cargos": [
+      "Administrador de Banco de Dados",
+      "Analista de Dados",
+      "Data Engineer",
+      "BI Analyst",
+      "Especialista em Governança de Dados"
+    ],
+    "salario": "R$ 4.000 a R$ 16.000+",
+    "formacao": [
+      "Banco de Dados",
+      "SQL",
+      "Business Intelligence",
+      "Engenharia de Dados",
+      "Governança de Dados"
+    ]
+  }
 }

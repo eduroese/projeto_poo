@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "texto": "Eu gosto de trabalhar com equipamentos e ferramentas.",
+    "perfil": "R"
+  },
+  {
+    "id": 2,
+    "texto": "Eu prefiro atividades práticas do que atividades teóricas.",
+    "perfil": "R"
+  },
+  {
+    "id": 3,
+    "texto": "Gosto de entender como o ambiente físico de uma empresa funciona.",
+    "perfil": "R"
+  },
+  {
+    "id": 4,
+    "texto": "Tenho curiosidade sobre como sistemas funcionam internamente.",
+    "perfil": "I"
+  },
+  {
+    "id": 5,
+    "texto": "Gosto de pesquisar antes de tomar decisões.",
+    "perfil": "I"
+  },
+  {
+    "id": 6,
+    "texto": "Prefiro atividades que necessitam de análise.",
+    "perfil": "I"
+  },
+  {
+    "id": 7,
+    "texto": "Gosto de expressar ideias de forma criativa.",
+    "perfil": "A"
+  },
+  {
+    "id": 8,
+    "texto": "Tenho interesse por design e estética.",
+    "perfil": "A"
+  },
+  {
+    "id": 9,
+    "texto": "Gosto de criar novas ideias.",
+    "perfil": "A"
+  },
+  {
+    "id": 10,
+    "texto": "Gosto de auxiliar pessoas.",
+    "perfil": "S"
+  },
+  {
+    "id": 11,
+    "texto": "Tenho facilidade para explicar assuntos.",
+    "perfil": "S"
+  },
+  {
+    "id": 12,
+    "texto": "Gosto de trabalhar em equipe.",
+    "perfil": "S"
+  },
+  {
+    "id": 13,
+    "texto": "Gosto de liderar equipes.",
+    "perfil": "E"
+  },
+  {
+    "id": 14,
+    "texto": "Gosto de influenciar pessoas.",
+    "perfil": "E"
+  },
+  {
+    "id": 15,
+    "texto": "Tenho interesse em negócios.",
+    "perfil": "E"
+  },
+  {
+    "id": 16,
+    "texto": "Gosto de organização e planejamento.",
+    "perfil": "C"
+  },
+  {
+    "id": 17,
+    "texto": "Prefiro atividades com procedimentos definidos.",
+    "perfil": "C"
+  },
+  {
+    "id": 18,
+    "texto": "Tenho atenção aos detalhes de organização.",
+    "perfil": "C"
+  }
+]

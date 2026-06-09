@@ -21,6 +21,60 @@
             da tecnologia combinam mais com o seu perfil,
             seus interesses e suas habilidades.
           </p>
+          <div class="riasec-info">
+          <h2 class="riasec-titulo">O que é a teoria RIASEC?</h2>
+          <p class="riasec-texto">
+            A teoria RIASEC, desenvolvida por John Holland, sugere que as pessoas
+            possuem diferentes interesses e preferências profissionais que podem ser
+            agrupados em seis perfis. Ao identificar quais perfis são mais fortes em
+            você, é possível descobrir áreas e carreiras mais compatíveis com suas
+            características.
+          </p>
+          <div class="riasec-grid">
+            <div class="riasec-card">
+              <h3>Realista (R)</h3>
+              <p>
+                Pessoas práticas que gostam de construir, consertar, operar máquinas
+                e trabalhar com atividades concretas.
+              </p>
+            </div>
+            <div class="riasec-card">
+              <h3>Investigativo (I)</h3>
+              <p>
+                Perfil voltado para análise, pesquisa, resolução de problemas e busca
+                por conhecimento.
+              </p>
+            </div>
+            <div class="riasec-card">
+              <h3> Artístico (A)</h3>
+              <p>
+                Pessoas criativas que valorizam expressão, inovação, design e criação
+                de novas ideias.
+              </p>
+            </div>
+            <div class="riasec-card">
+              <h3> Social (S)</h3>
+              <p>
+                Gostam de ajudar, ensinar, orientar e trabalhar diretamente com outras
+                pessoas.
+              </p>
+            </div>
+            <div class="riasec-card">
+              <h3> Empreendedor (E)</h3>
+              <p>
+                Possuem facilidade para liderar, negociar, influenciar e desenvolver
+                projetos e negócios.
+              </p>
+            </div>
+            <div class="riasec-card">
+              <h3> Convencional (C)</h3>
+              <p>
+                Preferem organização, planejamento, controle de informações e tarefas
+                estruturadas.
+              </p>
+            </div>
+          </div>
+        </div>
           <button id="botao-comecar" class="botao-primario">Começar o teste</button>
         </div>
         <div class="inicial-direita">
@@ -35,7 +89,7 @@
 
       <div class="progresso-topo">
         <span id="numero-pergunta" class="numero-pergunta">Pergunta 1</span>
-        <span id="total-perguntas" class="total-perguntas">de 30</span>
+        <span id="total-perguntas" class="total-perguntas">de 18</span>
       </div>
 
       <div class="barra-progresso-container">
@@ -57,6 +111,43 @@
 
     </div> 
   </div>
+
+  <div id="tela-round2" class="tela">
+
+  <div class="cartao cartao-resultado">
+
+    <h2>
+      Primeira etapa concluída!
+    </h2>
+
+    <p>
+      Com base nas suas respostas,
+      os dois perfis que mais
+      combinaram com você foram:
+    </p>
+
+    <div id="resultado-round1">
+
+    </div>
+
+    <p>
+      Agora vamos aprofundar
+      sua análise para descobrir
+      qual área da tecnologia
+      combina mais com você.
+    </p>
+
+    <button
+      id="botao-continuar-round2"
+      class="botao-primario">
+
+      Continuar para a Rodada 2
+
+    </button>
+
+  </div>
+
+</div>
 
   <div id="tela-resultado" class="tela">
     <div class="resultado-wrapper">
@@ -92,6 +183,26 @@
       </div>
     </div>
   </div>
+
+  <div id="modal-area" class="modal">
+
+  <div class="modal-conteudo">
+
+    <button
+      id="fechar-modal"
+      class="modal-fechar">
+
+      ×
+
+    </button>
+
+    <div id="modal-area-conteudo">
+
+    </div>
+
+  </div>
+
+</div>
 
   <script type="module" src="script.js"></script>
 </body>

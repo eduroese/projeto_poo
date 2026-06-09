@@ -1,13 +1,18 @@
 export default class QuestionController {
-    constructor(teste, renderController) {
+    constructor(teste, renderController, scoreController) {
         this.teste = teste;
         this.renderController = renderController;
+        this.scoreController = scoreController;
         this.opcoesContainer = document.getElementById("opcoes-container");
         this.avisoSelecao = document.getElementById("aviso-selecao");
     }
 
     selecionarOpcao(valor) {
-        this.teste.respostas[this.teste.indiceAtual] = Number(valor);
+        if (this.teste.fase === 1) {
+            this.teste.respostasRound1[this.teste.indiceAtual] = Number(valor);
+        } else {
+            this.teste.respostasRound2[this.teste.indiceAtual] = Number(valor);
+        }
         this.opcoesContainer
             .querySelectorAll(".opcao-label")
             .forEach((label) => label.classList.remove("selecionada"));
@@ -18,14 +23,26 @@ export default class QuestionController {
         this.avisoSelecao.classList.remove("visivel");
     }
 
-    avancarPergunta() {
-        if (this.teste.respostas[this.teste.indiceAtual] === null) {
-            this.avisoSelecao.classList.add("visivel");
+    obterRespostaAtual() {
+        return this.teste.fase === 1
+            ? this.teste.respostasRound1[this.teste.indiceAtual]
+            : this.teste.respostasRound2[this.teste.indiceAtual];
+    }
 
+    avancarPergunta() {
+        if (this.obterRespostaAtual() === null) {
+            this.avisoSelecao.classList.add("visivel");
             return;
         }
-        if (this.teste.indiceAtual === this.teste.perguntas.length - 1) {
-            this.renderController.exibirResultado();
+        const ultimaPergunta =
+            this.teste.indiceAtual === this.teste.perguntas.length - 1;
+        if (ultimaPergunta && this.teste.fase === 1) {
+            this.renderController.exibirResultadoParcial();
+            return;
+        }
+        if (ultimaPergunta && this.teste.fase === 2) {
+            this.renderController.exibirResultadoFinal();
+
             return;
         }
         this.teste.indiceAtual++;
@@ -41,15 +58,20 @@ export default class QuestionController {
     }
 
     iniciarTeste() {
-        this.teste.indiceAtual = 0;
-        this.teste.respostas = new Array(this.teste.perguntas.length).fill(null);
-        this.renderController.renderizarPergunta();
+        this.teste.reiniciar();
         this.renderController.mostrarTela(this.renderController.telaPerguntas);
+        this.renderController.renderizarPergunta();
+    }
+
+    iniciarRound2() {
+        const perfis = this.scoreController.obterTop2Perfis();
+        this.teste.iniciarRound2(perfis);
+        this.renderController.mostrarTela(this.renderController.telaPerguntas);
+        this.renderController.renderizarPergunta();
     }
 
     reiniciarTeste() {
-        this.teste.indiceAtual = 0;
-        this.teste.respostas = new Array(this.teste.perguntas.length).fill(null);
+        this.teste.reiniciar();
         this.renderController.mostrarTela(this.renderController.telaInicial);
     }
 }

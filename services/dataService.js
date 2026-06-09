@@ -1,6 +1,16 @@
 export default class DataService {
-    static async carregarPerguntas() {
-        const response = await fetch("./data/perguntas.json");
+    static async carregarPerguntasRound2() {
+        const response = await fetch("./data/perguntasRound2.json");
+
+        if (!response.ok) {
+            throw new Error("Erro ao carregar perguntas");
+        }
+
+        return await response.json();
+    }
+
+    static async carregarPerguntasRound1() {
+        const response = await fetch("./data/perguntasRound1.json");
 
         if (!response.ok) {
             throw new Error("Erro ao carregar perguntas");

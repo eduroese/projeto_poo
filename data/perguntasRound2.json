@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "texto": "Tenho interesse em configurar redes de computadores.",
+    "perfil": "R"
+  },
+  {
+    "id": 2,
+    "texto": "Gostaria de administrar servidores.",
+    "perfil": "R"
+  },
+  {
+    "id": 3,
+    "texto": "Tenho curiosidade sobre computação em nuvem.",
+    "perfil": "R"
+  },
+  {
+    "id": 4,
+    "texto": "Gosto de montar ou fazer manutenção em computadores.",
+    "perfil": "R"
+  },
+  {
+    "id": 5,
+    "texto": "Acho interessante monitorar e solucionar falhas de infraestrutura.",
+    "perfil": "R"
+  },
+  {
+    "id": 6,
+    "texto": "Tenho interesse em criar programas.",
+    "perfil": "I"
+  },
+  {
+    "id": 7,
+    "texto": "Gostaria de trabalhar com Inteligência Artificial.",
+    "perfil": "I"
+  },
+  {
+    "id": 8,
+    "texto": "Acho interessante analisar grandes volumes de dados.",
+    "perfil": "I"
+  },
+  {
+    "id": 9,
+    "texto": "Gostaria de aprender sobre segurança de TI.",
+    "perfil": "I"
+  },
+  {
+    "id": 10,
+    "texto": "Gosto de identificar causas e soluções para problemas técnicos.",
+    "perfil": "I"
+  },
+  {
+    "id": 11,
+    "texto": "Tenho interesse em criar interfaces para aplicativos.",
+    "perfil": "A"
+  },
+  {
+    "id": 12,
+    "texto": "Prezo pela experiência do usuário.",
+    "perfil": "A"
+  },
+  {
+    "id": 13,
+    "texto": "Acho interessante desenvolver layouts para sites.",
+    "perfil": "A"
+  },
+  {
+    "id": 14,
+    "texto": "Tenho curiosidade sobre design de produtos digitais.",
+    "perfil": "A"
+  },
+  {
+    "id": 15,
+    "texto": "Gostaria de trabalhar com tecnologia e criatividade.",
+    "perfil": "A"
+  },
+  {
+    "id": 16,
+    "texto": "Tenho interesse em auxiliar pessoas no computador.",
+    "perfil": "S"
+  },
+  {
+    "id": 17,
+    "texto": "Gostaria de treinar usuários em sistemas.",
+    "perfil": "S"
+  },
+  {
+    "id": 18,
+    "texto": "Gosto de resolver problemas apresentados por outras pessoas.",
+    "perfil": "S"
+  },
+  {
+    "id": 19,
+    "texto": "Tenho interesse em atuar analisando o atendimento para a melhor resolução.",
+    "perfil": "S"
+  },
+  {
+    "id": 20,
+    "texto": "Considero importante traduzir termos técnicos para uma linguagem simples.",
+    "perfil": "S"
+  },
+  {
+    "id": 21,
+    "texto": "Tenho interesse em gerenciar projetos de tecnologia.",
+    "perfil": "E"
+  },
+  {
+    "id": 22,
+    "texto": "Gostaria de liderar equipes de TI.",
+    "perfil": "E"
+  },
+  {
+    "id": 23,
+    "texto": "Tenho curiosidade sobre gestão de produtos digitais.",
+    "perfil": "E"
+  },
+  {
+    "id": 24,
+    "texto": "Gosto de planejar estratégias para alcançar objetivos.",
+    "perfil": "E"
+  },
+  {
+    "id": 25,
+    "texto": "Tenho interesse em inovação e criação de negócios tecnológicos.",
+    "perfil": "E"
+  },
+  {
+    "id": 26,
+    "texto": "Tenho interesse em administrar bancos de dados.",
+    "perfil": "C"
+  },
+  {
+    "id": 27,
+    "texto": "Gosto de documentar processos.",
+    "perfil": "C"
+  },
+  {
+    "id": 28,
+    "texto": "Acho interessante trabalhar com auditoria e governança de TI.",
+    "perfil": "C"
+  },
+  {
+    "id": 29,
+    "texto": "Tenho facilidade para organizar informações.",
+    "perfil": "C"
+  },
+  {
+    "id": 30,
+    "texto": "Prefiro ambientes de trabalho estruturados e previsíveis.",
+    "perfil": "C"
+  }
+]
