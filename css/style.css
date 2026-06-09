@@ -608,3 +608,24 @@ h1, h2, h3, h4, h5, h6 {
 .modal-conteudo ul {
     padding-left: 20px;
 }
+
+progress {
+    width: 200px;
+    height: 12px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* fundo (parte cinza) */
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+}
+
+/* progresso (parte azul) */
+progress::-webkit-progress-value {
+    background: linear-gradient(90deg, #2196f3, #64b5f6);
+    border-radius: 20px;
+}

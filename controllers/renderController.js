@@ -40,6 +40,7 @@ export default class RenderController {
     const percentual =
       ((this.teste.indiceAtual + 1) / this.teste.perguntas.length) * 100;
     this.barraProgresso.style.width = `${percentual}%`;
+    this.barraProgresso.value = percentual;
   }
 
   renderizarPergunta() {
