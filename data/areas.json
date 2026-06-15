@@ -1,6 +1,7 @@
 {
   "R": {
     "nome": "Infraestrutura, Redes e Cloud",
+    "perfil": "Realista",
     "descricao": "Você gosta de atividades práticas, configuração de sistemas, redes e ambientes tecnológicos.",
     "cargos": [
       "Analista de Redes",
@@ -23,6 +24,7 @@
 
   "I": {
     "nome": "Desenvolvimento, Dados, IA e Segurança",
+    "perfil": "Investigativo",
     "descricao": "Você possui um perfil analítico e investigativo, com facilidade para resolver problemas, trabalhar com lógica e buscar soluções técnicas.",
     "cargos": [
       "Desenvolvedor",
@@ -46,6 +48,7 @@
 
   "A": {
     "nome": "UX/UI e Design Digital",
+    "perfil": "Artístico",
     "descricao": "Você demonstra criatividade, inovação e interesse em criar experiências visuais e interativas para usuários.",
     "cargos": [
       "UX Designer",
@@ -69,6 +72,7 @@
 
   "S": {
     "nome": "Suporte e Relacionamento",
+    "perfil": "Social",
     "descricao": "Você gosta de ajudar pessoas, possui boa comunicação e interesse em solucionar problemas relacionados à tecnologia.",
     "cargos": [
       "Analista de Suporte",
@@ -91,6 +95,7 @@
 
   "E": {
     "nome": "Gestão e Produtos",
+    "perfil": "Empreendedor",
     "descricao": "Você possui perfil de liderança, visão estratégica e interesse em gestão de equipes, produtos e projetos de tecnologia.",
     "cargos": [
       "Product Owner",
@@ -113,6 +118,7 @@
 
   "C": {
     "nome": "Banco de Dados e Governança",
+    "perfil": "Convencional",
     "descricao": "Você valoriza organização, precisão, controle de informações e ambientes estruturados.",
     "cargos": [
       "DBA",

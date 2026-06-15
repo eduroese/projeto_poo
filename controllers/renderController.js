@@ -174,7 +174,43 @@ export default class RenderController {
         </ul>
     `;
     modal.classList.add("ativo");
+    const btnPDF = document.getElementById("btn-exportar-pdf");
+    btnPDF.onclick = () => this.exportarPDF(area);
   }
+
+  exportarPDF(area) {
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF();
+    let y = 20;
+
+    pdf.setFontSize(18);
+    pdf.text(area.nome, 15, y);
+    y += 12;
+    pdf.setFontSize(12);
+    pdf.text(area.descricao, 15, y, {
+      maxWidth: 180,
+    });
+    y += 20;
+    pdf.setFontSize(14);
+    pdf.text("Faixa salarial", 15, y);
+    y += 8;
+    pdf.setFontSize(12);
+    pdf.text(area.salario, 15, y);
+    y += 15;
+    pdf.setFontSize(14);
+    pdf.text("Possíveis cargos", 15, y);
+    y += 8;
+    pdf.setFontSize(12);
+    area.cargos.forEach((cargo) => { pdf.text(`• ${cargo}`, 20, y); y += 7; });
+    y += 5;
+    pdf.setFontSize(14);
+    pdf.text("O que estudar", 15, y);
+    y += 8;
+    pdf.setFontSize(12);
+    area.formacao.forEach((item) => { pdf.text(`• ${item}`, 20, y); y += 7; });
+    pdf.save(`${area.nome}.pdf`);
+  }
+
 
   configurarModal() {
     const modal = document.getElementById("modal-area");

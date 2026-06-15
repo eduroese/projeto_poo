@@ -640,3 +640,24 @@ progress::-webkit-progress-value {
     background: linear-gradient(90deg, #2196f3, #64b5f6);
     border-radius: 20px;
 }
+
+.modal-topo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.btn-exportar-pdf {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-exportar-pdf:hover {
+    opacity: .9;
+}
