@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "texto": "Eu gosto de trabalhar com equipamentos e ferramentas.",
+    "texto": "Gosto de trabalhar com equipamentos e ferramentas.",
     "perfil": "R"
   },
   {
     "id": 2,
-    "texto": "Eu prefiro atividades práticas do que atividades teóricas.",
+    "texto": "Prefiro atividades práticas do que atividades teóricas.",
     "perfil": "R"
   },
   {
     "id": 3,
-    "texto": "Gosto de entender como o ambiente físico de uma empresa funciona.",
+    "texto": "Tenho curiosidade de saber como funciona o ambiente físico de servidores de uma empresa.",
     "perfil": "R"
   },
   {
     "id": 4,
-    "texto": "Tenho curiosidade sobre como sistemas funcionam internamente.",
+    "texto": "Tenho interesse em entender como softwares e sistemas são construídos e funcionam internamente.",
     "perfil": "I"
   },
   {
     "id": 5,
-    "texto": "Gosto de pesquisar antes de tomar decisões.",
+    "texto": "Costumo pesquisar bastante sobre um assunto antes de tomar decisões.",
     "perfil": "I"
   },
   {
     "id": 6,
-    "texto": "Prefiro atividades que necessitam de análise.",
+    "texto": "Prefiro atividades que precisam de análise.",
     "perfil": "I"
   },
   {
@@ -36,17 +36,17 @@
   },
   {
     "id": 8,
-    "texto": "Tenho interesse por design e estética.",
+    "texto": "Tenho interesse por design e estética de sites.",
     "perfil": "A"
   },
   {
     "id": 9,
-    "texto": "Gosto de criar novas ideias.",
+    "texto": "Gosto de criar elementos visuais que tornem sites e aplicativos mais agradáveis de usar.",
     "perfil": "A"
   },
   {
     "id": 10,
-    "texto": "Gosto de auxiliar pessoas.",
+    "texto": "Gosto de ajudar pessoas a resolver problemas relacionados à tecnologia.",
     "perfil": "S"
   },
   {
@@ -56,22 +56,22 @@
   },
   {
     "id": 12,
-    "texto": "Gosto de trabalhar em equipe.",
+    "texto": "Prefiro trabalhar em equipe do que sozinho.",
     "perfil": "S"
   },
   {
     "id": 13,
-    "texto": "Gosto de liderar equipes.",
+    "texto": "Gostaria de liderar equipes.",
     "perfil": "E"
   },
   {
     "id": 14,
-    "texto": "Gosto de influenciar pessoas.",
+    "texto": "Gosto de influenciar pessoas para realizarem uma tarefa.",
     "perfil": "E"
   },
   {
     "id": 15,
-    "texto": "Tenho interesse em negócios.",
+    "texto": "Tenho interesse em criar produtos, serviços ou negócios relacionados à tecnologia.",
     "perfil": "E"
   },
   {
@@ -81,12 +81,12 @@
   },
   {
     "id": 17,
-    "texto": "Prefiro atividades com procedimentos definidos.",
+    "texto": "Prefiro realizar atividades com procedimentos bem definidos.",
     "perfil": "C"
   },
   {
     "id": 18,
-    "texto": "Tenho atenção aos detalhes de organização.",
+    "texto": "Tenho facilidade para organizar informações e seguir padrões definidos.",
     "perfil": "C"
   }
 ]

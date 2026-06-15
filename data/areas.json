@@ -3,119 +3,134 @@
     "nome": "Infraestrutura, Redes e Cloud",
     "descricao": "Você gosta de atividades práticas, configuração de sistemas, redes e ambientes tecnológicos.",
     "cargos": [
+      "Analista de Redes",
       "Analista de Infraestrutura",
-      "Administrador de Redes",
-      "Cloud Engineer",
-      "DevOps Engineer",
-      "Analista de Suporte Nível 3"
+      "Administrador de Sistemas",
+      "Cloud Engineer"
     ],
-    "salario": "R$ 3.500 a R$ 15.000+",
+    "salario": "R$ 4.500 a R$ 10.000",
     "formacao": [
       "Redes de Computadores",
-      "Cloud Computing",
+      "Modelo OSI",
+      "TCP/IP",
+      "Windows Server",
       "Linux",
-      "DevOps",
-      "Infraestrutura de TI"
+      "Virtualização (VMware/Proxmox)",
+      "Active Directory",
+      "Cloud (AWS, Azure ou GCP)"
     ]
   },
 
   "I": {
-    "nome": "Desenvolvimento, IA e Segurança",
-    "descricao": "Você possui um perfil analítico e investigativo, com facilidade para resolver problemas e trabalhar com lógica.",
+    "nome": "Desenvolvimento, Dados, IA e Segurança",
+    "descricao": "Você possui um perfil analítico e investigativo, com facilidade para resolver problemas, trabalhar com lógica e buscar soluções técnicas.",
     "cargos": [
-      "Desenvolvedor de Software",
-      "Engenheiro de IA",
-      "Analista de Segurança",
+      "Desenvolvedor",
       "Cientista de Dados",
-      "Engenheiro de Machine Learning"
+      "Analista de Segurança",
+      "Engenheiro de IA"
     ],
-    "salario": "R$ 4.000 a R$ 20.000+",
+    "salario": "R$ 5.000 a R$ 15.000",
     "formacao": [
-      "Desenvolvimento de Software",
-      "Inteligência Artificial",
-      "Ciência de Dados",
-      "Cybersecurity",
-      "Engenharia de Software"
+      "Lógica de Programação",
+      "Python",
+      "Banco de Dados SQL",
+      "Algoritmos",
+      "Estrutura de Dados",
+      "Git/GitHub",
+      "Estatística",
+      "Machine Learning",
+      "Fundamentos de Segurança"
     ]
   },
 
   "A": {
     "nome": "UX/UI e Design Digital",
-    "descricao": "Você demonstra criatividade, inovação e interesse em criar experiências visuais e interativas.",
+    "descricao": "Você demonstra criatividade, inovação e interesse em criar experiências visuais e interativas para usuários.",
     "cargos": [
       "UX Designer",
       "UI Designer",
       "Product Designer",
-      "Designer Digital",
-      "Motion Designer"
+      "Front-end Developer"
     ],
-    "salario": "R$ 3.000 a R$ 12.000+",
+    "salario": "R$ 3.500 a R$ 10.000",
     "formacao": [
-      "UX Design",
-      "UI Design",
-      "Design Digital",
-      "Design de Produto",
-      "Figma e Prototipação"
+      "Figma",
+      "Design Thinking",
+      "UX Research",
+      "Wireframes",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Acessibilidade",
+      "Design de Interfaces"
     ]
   },
 
   "S": {
     "nome": "Suporte e Relacionamento",
-    "descricao": "Você é colaborativo, gosta de ajudar pessoas e possui facilidade de comunicação.",
+    "descricao": "Você gosta de ajudar pessoas, possui boa comunicação e interesse em solucionar problemas relacionados à tecnologia.",
     "cargos": [
       "Analista de Suporte",
+      "Service Desk",
       "Customer Success",
-      "Consultor de TI",
-      "Instrutor de Tecnologia",
-      "Analista de Implantação"
+      "Instrutor de Sistemas"
     ],
-    "salario": "R$ 2.500 a R$ 10.000+",
+    "salario": "R$ 2.500 a R$ 6.000",
     "formacao": [
-      "Suporte Técnico",
-      "Gestão de Serviços de TI",
-      "Customer Success",
+      "Hardware",
+      "Sistemas Operacionais",
+      "Redes Básicas",
+      "Atendimento ao Cliente",
       "ITIL",
-      "Relacionamento com Clientes"
+      "Documentação Técnica",
+      "Comunicação",
+      "Resolução de Problemas"
     ]
   },
 
   "E": {
-    "nome": "Gestão de Projetos e Empreendedorismo",
-    "descricao": "Você possui perfil de liderança, tomada de decisão e visão estratégica.",
+    "nome": "Gestão e Produtos",
+    "descricao": "Você possui perfil de liderança, visão estratégica e interesse em gestão de equipes, produtos e projetos de tecnologia.",
     "cargos": [
-      "Gerente de Projetos",
-      "Scrum Master",
       "Product Owner",
-      "Gestor de TI",
-      "Empreendedor de Tecnologia"
+      "Scrum Master",
+      "Gerente de Projetos",
+      "Coordenador de TI"
     ],
-    "salario": "R$ 5.000 a R$ 20.000+",
+    "salario": "R$ 7.000 a R$ 18.000",
     "formacao": [
-      "Gestão de Projetos",
       "Scrum",
-      "Agilidade",
+      "Kanban",
+      "Gestão de Projetos",
+      "Liderança",
       "Gestão de Produtos",
-      "Empreendedorismo"
+      "Análise de Negócios",
+      "Metodologias Ágeis",
+      "Planejamento Estratégico"
     ]
   },
 
   "C": {
-    "nome": "Banco de Dados",
-    "descricao": "Você valoriza organização, precisão e controle de informações.",
+    "nome": "Banco de Dados e Governança",
+    "descricao": "Você valoriza organização, precisão, controle de informações e ambientes estruturados.",
     "cargos": [
-      "Administrador de Banco de Dados",
+      "DBA",
       "Analista de Dados",
-      "Data Engineer",
-      "BI Analyst",
-      "Especialista em Governança de Dados"
+      "Analista de Governança",
+      "Analista de Processos"
     ],
-    "salario": "R$ 4.000 a R$ 16.000+",
+    "salario": "R$ 5.000 a R$ 12.000",
     "formacao": [
-      "Banco de Dados",
       "SQL",
-      "Business Intelligence",
-      "Engenharia de Dados",
-      "Governança de Dados"
+      "Modelagem de Dados",
+      "Power BI",
+      "Excel Avançado",
+      "Governança de TI",
+      "COBIT",
+      "ITIL",
+      "Processos",
+      "Auditoria"
     ]
   }
 }
