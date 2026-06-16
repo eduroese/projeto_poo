@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Manrope', sans-serif;
-  background-color: #f0f2f8;
+  background-color: #111827;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cartao {
-  background-color: #ffffff;
+  background-color: #202B42;
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
   border: 1px solid #e4e8f0;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
   display: flex;
   flex-direction: column;  /* empilha imagem + RIASEC */
-  align-items: flex-start; /* alinha à esquerda dentro da coluna */
+  align-items: center; /* alinha no centro */
   justify-content: flex-start; /* joga tudo pro topo */
   gap: 20px;
 
@@ -76,19 +76,21 @@ h1, h2, h3, h4, h5, h6 {
 .titulo-principal {
   font-size: 40px;
   font-weight: 700;
-  color: #1a1e2e;
+  color: #F8FAFC;
   line-height: 1.2;
   letter-spacing: -0.5px;
   margin-bottom: 20px;
 }
 
 .titulo-destaque {
-  color: #4361ee;
+  background: linear-gradient(90deg, #8B5CF6, #38BDF8);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .descricao-inicial {
   font-size: 15px;
-  color: #6b7280;
+  color: #CBD5E1;
   line-height: 1.7;
   max-width: 400px;
   margin-bottom: 32px;
@@ -110,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 .numero-pergunta {
   font-size: 14px;
   font-weight: 700;
-  color: #4361ee;
+  color: #3B82F6;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -123,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 .texto-pergunta {
   font-size: 19px;
   font-weight: 600;
-  color: #1a1e2e;
+  color: #E2E8F0;
   line-height: 1.6;
   margin-bottom: 10px;
   min-height: 60px;
@@ -145,16 +147,16 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   cursor: pointer;
   font-size: 15px;
-  color: #4a5568;
-  background-color: #fafafa;
+  color: #E2E8F0;
+  background-color: #273449;
   transition: border-color 0.2s, background-color 0.2s, color 0.2s;
   user-select: none;
 }
 
 .opcao-label:hover {
   border-color: #a5b4fc;
-  background-color: #eef0fd;
-  color: #3730a3;
+  background-color: #334155;
+  color: #E2E8F0;
 }
 
 .opcao-label input[type="radio"] {
@@ -213,6 +215,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 48px 44px;
   text-align: center;
   margin-bottom: 16px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.cartao-resultado h2 {
+  color: #F8FAFC
+}
+
+.cartao-resultado p {
+  color: #CBD5E1;
 }
 
 .titulo-resultado {
@@ -403,7 +415,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #botao-comecar {
   font-size: 16px;
-  padding: 15px 32px;
+  padding: 20px 34px;
+  background-color: #8B5CF6;
+}
+
+#botao-comecar:hover {
+  background-color: #3B82F6;
 }
 
 @media (max-width: 768px) {
@@ -500,13 +517,13 @@ h1, h2, h3, h4, h5, h6 {
 .riasec-titulo {
   font-size: 24px;
   font-weight: 700;
-  color: #1a1e2e;
+  color: #F8FAFC;
   margin-bottom: 16px;
 }
 
 .riasec-texto {
   font-size: 15px;
-  color: #6b7280;
+  color: #CBD5E1;
   line-height: 1.7;
   margin-bottom: 24px;
 }
@@ -518,7 +535,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .riasec-card {
-  background-color: #f5f6ff;
+  background-color: #273449;
   border: 1px solid #e0e4fa;
   border-radius: 12px;
   padding: 16px;
@@ -531,13 +548,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .riasec-card h3 {
   font-size: 16px;
-  color: #4361ee;
+  color: #3B82F6;
   margin-bottom: 8px;
 }
 
 .riasec-card p {
   font-size: 14px;
-  color: #6b7280;
+  color: #CBD5E1;
   line-height: 1.6;
 }
 
@@ -556,7 +573,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .area-card {
-    background: #f5f6ff;
+    background: #374a68;
     border: 1px solid #dfe5ef;
     border-radius: 12px;
     padding: 20px;
@@ -569,6 +586,7 @@ h1, h2, h3, h4, h5, h6 {
 .area-card h3,
 .area-card h2 {
     margin-bottom: 10px;
+    color: #F8FAFC;
 }
 
 .modal {
